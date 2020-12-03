@@ -13,20 +13,25 @@ chatbot = ChatBot(
             'maximum_similarity_threshold': 0.90
         }
     ],
+    filters=[
+        'chatterbot.filters.RepetitiveResponseFilter'
+    ],
     database_uri='sqlite:///database.sqlite3'
-) 
+)
 
- # Training with Personal Ques & Ans 
+# Training with Personal Ques & Ans
 training_data = open('training/ques_ans.txt').read().splitlines()
 
 
 trainer = ListTrainer(chatbot)
-trainer.train(training_data)  
+trainer.train(training_data)
 
-# Training with Portugues Corpus Data 
+# Training with Portugues Corpus Data
 trainer_corpus = ChatterBotCorpusTrainer(chatbot)
 trainer_corpus.train(
     "chatterbot.corpus.portuguese",
     "chatterbot.corpus.portuguese.greetings",
-    "chatterbot.corpus.portuguese.conversations"
-) 
+    "chatterbot.corpus.portuguese.conversations",
+    "chatterbot.corpus.portuguese.compliment",
+    "chatterbot.corpus.portuguese.linguistic_knowledge"
+)
