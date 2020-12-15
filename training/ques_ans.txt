@@ -2,7 +2,7 @@ qual o seu nome?
 Meu nome é A.R.T.U.R.Sou seu assistente :)
 quais cursos disponíveis?
 A faculdade Senac possui os seguintes cursos de graduação: <br /> Bacharelado em administração, Design de moda, Gastronomia, Gestão de RH, Estética e cosmética, Análise e desenvolv. de sistemas, Gestão comercial e Design de interiores.Saiba mais <a href="https://faculdadesenacpe.edu.br/curso/" target="_blank">aqui</a>
-tracamento de curso
+trancamento de curso
 Comparecer à secretaria com a documentação.
 cancelar matrícula
 Comparecer à secretaria com a documentação.
@@ -22,3 +22,9 @@ Parcelamento de dívidas
 Entrar em contato com o setor financeiro através do e-mail "secretariafac@pe.senac.br" com as informações da situação.
 diploma
 O diploma é emitido após a colação de grau. A previsão da entrega do diploma é de 3 meses a 1 ano.
+boleto
+De qual mês você deseja retirar o boleto?
+janeiro
+Aqui está! <a href="https://cdn.discordapp.com/attachments/708436348683419742/788191650518007838/boletobancario.png" target="_blank">boletobancario.pdf</a>
+comprovante de matrícula
+Aqui está! <a href="https://cdn.discordapp.com/attachments/708436348683419742/788192468973387846/aluno_imprimir_comprovante_03.png" target="_blank">comprovante.pdf</a>
