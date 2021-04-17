@@ -22,7 +22,6 @@ pymongo==3.11.3
 pyparsing==2.4.7
 python-dateutil==2.7.5
 pytz==2021.1
-PyYAML==3.13
 regex==2021.3.17
 six==1.15.0
 SQLAlchemy==1.2.19
@@ -30,3 +29,5 @@ toml==0.10.1
 tqdm==4.59.0
 Werkzeug==1.0.1
 wrapt==1.12.1
+setuptools==56.0.0
+PyYAML==3.13
