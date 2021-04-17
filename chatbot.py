@@ -32,6 +32,5 @@ trainer_corpus.train(
     "chatterbot.corpus.portuguese",
     "chatterbot.corpus.portuguese.greetings",
     "chatterbot.corpus.portuguese.conversations",
-    "chatterbot.corpus.portuguese.compliment",
     "chatterbot.corpus.portuguese.linguistic_knowledge"
 )
